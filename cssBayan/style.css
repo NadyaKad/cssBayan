@@ -38,9 +38,51 @@ overflow: hidden;
   }
   img {
     width: 40%;
-    height: 40%
+    height: 40%;
+    display: none;
+    margin: 1% auto;
    }
   label {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    height: 7vh;
+}
+.accordeon-item label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.accordeon-item content {
+    max-height: 0;
+    transition: all 1s;
   }
+.accordeon-item close {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;} 
+.accordeon-item:hover {
+    cursor: pointer;
+}
+#check1:checked ~ img {
+    display: block;
+    visibility: visible;
+}
+#check2:checked ~ img {
+    display: block;
+    visibility: visible;
+}
+#check3:checked ~ img {
+    display: block;
+    visibility: visible;
+
+}
+#check4:checked ~ img {
+    display: block;
+    visibility: visible;
+}
+#check5:checked ~ img {
+    display: block;
+    visibility: visible;
+}
