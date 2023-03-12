@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+ html {
+    scroll-behavior: smooth; 
+    font-size: 18px;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E8F6F3;
+  }
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: left;
+    color: black;
+  }
+  input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.accordeon {
+overflow: hidden;
+}
+  .accordeon-item {
+    width: 100%;
+    overflow:hidden;
+  }
+  img {
+    width: 40%;
+    height: 40%
+   }
+  label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  }
