@@ -96,19 +96,18 @@ transition: all 2s;
 .accordeon-item label {
     cursor: pointer;
 }
-
 /*adaptive*/
 @media (max-width: 820px) {
     h1 {font-size: 1,25rem;}
     h2 {font-size:0.75rem;}
     .arrow {
-        height: 25%;
+        height: 20%;
     }
 }
 @media (max-width: 320px) {
     h1 {font-size: 1rem;}
     h2 {font-size:0.5rem;}
     .arrow {
-        height: 20%;
+        height: 15%;
     }
 }
